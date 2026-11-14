@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini IDE</title>
+    <style>
+      *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+      html, body, #root { height: 100%; overflow: hidden; }
+      body {
+        font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        background: #1e1e1e;
+        color: #cccccc;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      /* Custom scrollbars — VS Code style */
+      ::-webkit-scrollbar { width: 8px; height: 8px; }
+      ::-webkit-scrollbar-track { background: transparent; }
+      ::-webkit-scrollbar-thumb { background: #424242; border-radius: 4px; }
+      ::-webkit-scrollbar-thumb:hover { background: #5a5a5a; }
+      ::-webkit-scrollbar-corner { background: transparent; }
+
+      /* Selection color */
+      ::selection { background: #264f78; }
+    </style>
+    <script type="module" crossorigin src="/assets/index-iFJQP0QP.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>

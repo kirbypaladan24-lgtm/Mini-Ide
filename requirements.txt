@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+httpx
+faiss-cpu
+watchdog
+PyYAML
+gitpython
+beautifulsoup4
+duckduckgo-search
